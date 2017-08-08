@@ -24,5 +24,6 @@ float rotSpeed = 180f;
 	Vector3 velocity = new Vector3 (0, Input.GetAxis("Vertical") * maxSpeed * Time.deltaTime, 0);
 	pos += rot * velocity;
 		transform.position = pos;
+        // these codes perform the moses
     }
 }
